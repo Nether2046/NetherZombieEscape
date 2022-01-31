@@ -5,25 +5,11 @@ labels: ["bug"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: さらに情報が必要な場合、どのように連絡すればよいでしょうか？
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: また、生じると期待されていたことは何でしょうか？
-      placeholder: Tell us what you see!
-      value: "バグが生じました!"
+      label: 不具合の内容
+      placeholder: 不具合が発生したときの状況や過程を具体的に記入してください。
     validations:
       required: true
   - type: dropdown
