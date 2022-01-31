@@ -1,0 +1,22 @@
+name: リクエスト
+description: NZEの機能に対する修正要望や新規機能の追加要望
+title: "リクエストのタイトル"
+labels: ["request"]
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: 機能について
+      options:
+        - 既存
+        - 新規
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 要望の内容
+      placeholder: 仕様や修正内容を具体的に記入してください
+    validations:
+      required: true
+
