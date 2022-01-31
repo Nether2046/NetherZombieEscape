@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+    - name: Discordによるサポート
+      url: https://discord.com/invite/usCudBs55t
+      about: NZEの仕様などに関する個別の質問やオンラインでのサポートチームとのチャットが必要ですか？
+    - name: Nether Server Network Support
+      url: https://www.nether-server.net/support/
+      about: 資料の確認が可能です。
