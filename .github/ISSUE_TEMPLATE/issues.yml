@@ -2,8 +2,6 @@ name: バグレポート
 description: NZEで発生した不具合のレポートを送信
 title: "不具合のタイトル"
 labels: ["bug"]
-assignees:
-  - octocat
 body:
   - type: textarea
     id: what-happened
