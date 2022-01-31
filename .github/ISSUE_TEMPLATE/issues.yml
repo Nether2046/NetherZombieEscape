@@ -3,6 +3,16 @@ description: NZEで発生した不具合のレポートを送信
 title: "不具合のタイトル"
 labels: ["bug"]
 body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: 不具合の種類
+      options:
+        - ゲームシステム
+        - 武器，アイテム
+        - マップ
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -10,37 +20,10 @@ body:
       placeholder: 不具合が発生したときの状況や過程を具体的に記入してください。
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: expect
     attributes:
-      label: Version
-      description: 実行していたソフトウェアのバージョンは?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: 期待される動作
+      placeholder: 不具合が起きた事象は本来どのように動作するべきでしたか？
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: 関連するログの出力をコピーしてペーストしてください。 これは自動的にコードにフォーマットされるので、バックティックは不要です。
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: このIssueをサブミットすることで、あなたは私たちの [行動規範](https://example.com)に同意したことになります。
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
