@@ -1,5 +1,6 @@
 name: バグレポート
 description: NZEで発生した不具合のレポートを送信
+label: 不具合の概要
 title: "[不具合]: "
 labels: ["bug"]
 assignees:
