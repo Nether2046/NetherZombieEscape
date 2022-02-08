@@ -1,0 +1,115 @@
+<h2><span id="toc1">fillコマンド生成ツール</span></h2>
+<link rel="stylesheet" type="text/css" href="https://minecraft-blog.net/wp-content/themes/cocoon-child-master/01_command-je/common.css" />
+<script src="https://minecraft-blog.net/wp-content/themes/cocoon-child-master/01_command-je/common.js" ></script>
+<script src="https://minecraft-blog.net/wp-content/themes/cocoon-child-master/01_command-je/block-data-1.16.js" ></script>
+<datalist id="listBlock"></datalist>
+
+<form name="form">
+	
+	<b style="background-color:gainsboro">1.範囲</b><br>
+
+	<table class="command-table-vertical">
+		<tr>
+			<th>開始位置X</th>
+			<td><input class="command-input" type="text" name="inputFromX" value="~" placeholder="必須"></td>
+		</tr>
+		
+		<tr>
+			<th>開始位置Y</th>
+			<td><input class="command-input" type="text" name="inputFromY" value="~" placeholder="必須"></td>
+		</tr>
+		
+		<tr>
+			<th>開始位置Z</th>
+			<td><input class="command-input" type="text" name="inputFromZ" value="~" placeholder="必須"></td>
+		</tr>
+		
+		<tr>
+			<th>終了位置X</th>
+			<td><input class="command-input" type="text" name="inputToX" value="~5" placeholder="必須"></td>
+		</tr>
+		
+		<tr>
+			<th>終了位置Y</th>
+			<td><input class="command-input" type="text" name="inputToY" value="~5" placeholder="必須"></td>
+		</tr>
+		
+		<tr>
+			<th>終了位置Z</th>
+			<td><input class="command-input" type="text" name="inputToZ" value="~5" placeholder="必須"></td>
+		</tr>
+		
+	</table>
+	
+	<br clear="all">
+	
+	<b style="background-color:gainsboro">2.オプション</b><br>
+
+	<table class="command-table-vertical">
+		
+		<tr>
+			<th>置換後のブロック</th>
+			<td><input class="command-input" type="search" name="inputToBlock" placeholder="必須" list="listBlock"></td>
+		</tr>
+
+		<tr>
+			<th>オプション</th>
+			<td>
+				<select class="command-input" name="inputOption" onchange="inputDisabled()">
+					<option value="">全てのブロックを置き換える</option>
+					<option value="replace">指定のブロックを置き換える</option>
+					<option value="keep">空気ブロックを置き換える</option>
+					<option value="destroy">元のブロックを壊して置き換える</option>
+					<option value="outline">枠のみ置き換える（中身はそのまま）</option>
+					<option value="hollow">枠のみ置き換える（中身は空気に）</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<th>指定のブロック</th>
+			<td><input class="command-input" type="search" name="inputFromBlock" placeholder="未設定" list="listBlock" disabled="true"></td>
+		</tr>
+		
+	</table>
+	
+<script>output();</script>
+	
+</form>
+
+<script>
+function cmdGenerate(){
+	
+	//初期化
+	var outputOption = "";
+	var outputFromBlock = "";
+	
+	if(form.inputOption.value !== ""){
+		outputOption = " " + form.inputOption.value;
+	}
+
+	if(form.inputFromBlock.value !== ""){
+		outputFromBlock = " " + findCodeListBlock(form.inputFromBlock.value);
+	}
+	
+	//コマンド出力
+	form.cmdOutput.value = "/fill " + form.inputFromX.value + " " + form.inputFromY.value + " " + form.inputFromZ.value + " " + form.inputToX.value + " " + form.inputToY.value + " " + form.inputToZ.value + " " + findCodeListBlock(form.inputToBlock.value) + outputOption + outputFromBlock;
+
+	//文字数出力
+	strLenPrint()
+	
+}
+
+function inputDisabled(){
+	
+	//replaceの場合、置換前のブロックを指定可能とする。
+	if(form.inputOption.value == "replace"){
+		form.inputFromBlock.disabled = false;
+		form.inputFromBlock.placeholder = "必須";
+	}else{
+		form.inputFromBlock.disabled = true;
+		form.inputFromBlock.value = "";
+		form.inputFromBlock.placeholder = "未設定";
+	}
+}
+</script>
