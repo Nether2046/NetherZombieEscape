@@ -200,6 +200,10 @@ top: 88px;
 	
 </form>
 
+	    
+	    <br><br><br><br>
+	    
+	    
 <script>
 function cmdGenerate(){
 	
@@ -217,14 +221,11 @@ function cmdGenerate(){
 	//コマンド出力
 	form.cmdOutput.value = "/fill " + form.inputFromX.value + " " + form.inputFromY.value + " " + form.inputFromZ.value + " " + form.inputToX.value + " " + form.inputToY.value + " " + form.inputToZ.value + " " + findCodeListBlock(form.inputToBlock.value) + outputOption + outputFromBlock;
 
-	//文字数出力
-	strLenPrint()
 	
 }
 
 function inputDisabled(){
 	
-	//replaceの場合、置換前のブロックを指定可能とする。
 	if(form.inputOption.value == "replace"){
 		form.inputFromBlock.disabled = false;
 		form.inputFromBlock.placeholder = "必須";
