@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Nether Zombie Escape</title>
+    <title>NZE Tools</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="https://www.nether-server.net/img/favicon.ico">
     <link rel="stylesheet" href="https://www.nether-server.net/css/ress.min.css">
@@ -45,11 +45,7 @@
 
 
 
-<!-- メインコンテンツ -->
 <style>
-/*-------------------------------------------
-nze
--------------------------------------------*/
 
 #nze {
 background-image: url(https://www.nether-server.net/img/nze2.png);
@@ -82,9 +78,7 @@ right: 0;
 text-align: center;
 }
 
-/*-------------------------------------------
-レスポンシブ
--------------------------------------------*/
+
 @media screen and (max-width: 767px) {
 #nze {
     height: 320px;
@@ -126,30 +120,20 @@ top: 88px;
     </style>
 
 <main id="main">
-    <section id="nze">
-        <br><br><br><br><br>
-        <h2 class="headline"><font color="#8b0000">Nether Zombie Escape</font></h2>
-        <br>
-        <div align="center">
-        <p class="subhead"><font color=#ff4500>β-04</font></></div>
-    </section>
-
-
     <div class="txt">
 
 
 
 
-<h2><span id="toc1">fillコマンド生成ツール</span></h2>
+<h2><span id="toc1">ゲート開閉コマンドツール</span></h2>
 <link rel="stylesheet" type="text/css" href="https://minecraft-blog.net/wp-content/themes/cocoon-child-master/01_command-je/common.css" />
 <script src="https://minecraft-blog.net/wp-content/themes/cocoon-child-master/01_command-je/common.js" ></script>
-<script src="https://minecraft-blog.net/wp-content/themes/cocoon-child-master/01_command-je/block-data-1.16.js" ></script>
+<script src="https://www.nether-server.net/js/data.js" ></script>
 <datalist id="listBlock"></datalist>
 
 <form name="form">
 	
-	<b style="background-color:gainsboro">1.範囲</b><br>
-
+	
 	<table class="command-table-vertical">
 		<tr>
 			<th>開始位置X</th>
@@ -185,7 +169,6 @@ top: 88px;
 	
 	<br clear="all">
 	
-	<b style="background-color:gainsboro">2.オプション</b><br>
 
 	<table class="command-table-vertical">
 		
@@ -198,18 +181,16 @@ top: 88px;
 			<th>オプション</th>
 			<td>
 				<select class="command-input" name="inputOption" onchange="inputDisabled()">
-					<option value="">全てのブロックを置き換える</option>
-					<option value="replace">指定のブロックを置き換える</option>
-					<option value="keep">空気ブロックを置き換える</option>
-					<option value="destroy">元のブロックを壊して置き換える</option>
-					<option value="outline">枠のみ置き換える（中身はそのまま）</option>
-					<option value="hollow">枠のみ置き換える（中身は空気に）</option>
+					<option value="">全てのブロックを置換</option>
+					<option value="replace">指定のブロックを置換</option>
+					<option value="keep">空気を置換</option>
+					<option value="destroy">破壊エフェクト</option>
 				</select>
 			</td>
 		</tr>
 
 		<tr>
-			<th>指定のブロック</th>
+			<th>ブロック指定</th>
 			<td><input class="command-input" type="search" name="inputFromBlock" placeholder="未設定" list="listBlock" disabled="true"></td>
 		</tr>
 		
@@ -222,7 +203,6 @@ top: 88px;
 <script>
 function cmdGenerate(){
 	
-	//初期化
 	var outputOption = "";
 	var outputFromBlock = "";
 	
