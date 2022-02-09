@@ -71,8 +71,8 @@ Nether Zombie Escapeで使用するステージマップの設計方法につい
 
 <br><br><br><br>
 ## STEP5　ゴール地点
-人間が最終的にたどり着く地点であり，マップの終点です。<br><br>
-<img width=30% src=https://user-images.githubusercontent.com/63540772/151965230-39264f38-0ad0-4dba-b851-e02a33fb7b30.png>
+人間チームが最終的にたどり着く地点であり，マップの終点です。<br><br>
+<img width=70% src=https://user-images.githubusercontent.com/63540772/151965230-39264f38-0ad0-4dba-b851-e02a33fb7b30.png>
 <br><br>
 
 
