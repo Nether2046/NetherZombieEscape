@@ -16,7 +16,6 @@
 
 <body oncontextmenu='return false;' oncopy=''>
 
-<!-- ヘッダー -->
 <header id="header">
     <div class="hamburger">
         <span></span>
@@ -228,11 +227,11 @@ function inputDisabled(){
 	
 	if(form.inputOption.value == "replace"){
 		form.inputFromBlock.disabled = false;
-		form.inputFromBlock.placeholder = "必須";
+		form.inputFromBlock.placeholder = "ブロックを検索";
 	}else{
 		form.inputFromBlock.disabled = true;
 		form.inputFromBlock.value = "";
-		form.inputFromBlock.placeholder = "未設定";
+		form.inputFromBlock.placeholder = "設定の必要はありません";
 	}
 }
 </script>
