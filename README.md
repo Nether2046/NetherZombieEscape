@@ -12,3 +12,4 @@ Nether Zombie Escapeに関する技術的なサポートが必要な場合は<a 
 ## 開発者向け
 
 <a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/tutorial/map.md>▶︎マップ制作マニュアル</a><br>
+<a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/tutorial/api.md>▶︎利用可能API</a><br>
