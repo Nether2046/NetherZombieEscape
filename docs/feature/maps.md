@@ -10,5 +10,5 @@ Nether Zombie Escapeで使用されているマップの仕様がまとめられ
 |  鉱山鉄道  |NZE Beta-2||
 |  首里城  |NZE Beta-3| |
 |  寝座市  |NZE Beta-5| |
-|  研究所  |NZE Beta-5| |
+|  研究所  |NZE Beta-5|<a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/feature/maps/labo.md>詳細を見る</a> |
 |  Abandoned city  |Beta-5| |
