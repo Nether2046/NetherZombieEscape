@@ -1,15 +1,54 @@
-## NZEサポート
-Nether Zombie Escapeに関する技術的なサポートが必要な場合は<a href=https://discord.com/invite/usCudBs55t>Discordサーバー</a>より，サポートチームによる専門的なサポートをご利用ください。<br><br><br>
+# Nether Zombie Escape
+
+## ◆ はじめに
+バグ報告やフィードバックなどは[Discord](https://discord.com/invite/usCudBs55t)のNether Zombie Escapeカテゴリ「🧪レポート」チャンネルでのみ対応しております。<br>その他、NZEに関するお問い合わせはDiscordの「お問い合わせ」チャンネルまたは公式サイトのお問い合わせフォームで対応しています。
 
 
-## プレイヤー向け
-<a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/feature/maps.md>▶︎マップデータ一覧</a><br>
-<a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/feature/weapons.md>▶︎武器の仕様一覧</a><br><br>
-<a href=https://github.com/Nether2046/NetherZombieEscape/issues/new/choose>▶︎不具合の報告，要望の送信</a><br>
-<br><br><br><br>
+## ◇ リリース
+Minecraft対応バージョン : **1.19.3**<br>
+NZEバージョン : **Beta-7.2.4**<br>
 
 
-## 開発者向け
+## ◆ ゲームルール
+Nether Zombie Escapeは、人間陣営とゾンビ陣営による鬼ごっこ形式のPVPゲームです。
 
-<a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/tutorial/map.md>▶︎マップ制作マニュアル</a><br>
-<a href=https://github.com/Nether2046/NetherZombieEscape/blob/main/docs/tutorial/api.md>▶︎Nether Zombie Escape API</a><br>
+### 人間陣営
+人間陣営の役割は、ゾンビから逃げながらステージの最深部に設置されている「セーフエリア」を目指すことです。
+ゾンビに感染しないよう、銃を使ってゾンビを足止めしながら先に進みましょう。
+
+### ゾンビ陣営
+ゾンビ陣営の役割は、すべての人間をゾンビに感染させるか、人間の防衛をくぐり抜けてセーフエリアに到達することです。
+
+## ◇ アイテム一覧
+
+### ジュエル
+Japan Minecraft Serversでの投票報酬として1日1個まで貰えるアイテム。  
+Hubに設置されているガチャを回すのに必要。
+
+### クレジット
+NZE内でお金としての役割を担うアイテム。 
+ゲームの報酬として獲得することが可能で、武器をアンロックする際に必要。
+
+### 経験値
+ゲームの報酬として獲得することが可能。  
+保有数に応じてランクが上がる。  
+武器のアンロック条件として一定のランク数が必要になることがある。
+
+### パーツ
+ガチャから排出されるアイテム。
+パーツはA 〜 Zまで存在し、アルファベット後ろのパーツであるほど入手難易度が上がる。
+武器のアンロックにパーツが必要になる場合がある。
+
+## ◆ 報酬システム
+報酬はラウンドが終了するごとに獲得する。  
+
+**【人間陣営が勝利した場合】**
+|  | 獲得できるクレジット | 獲得できる経験値 |
+| --- | :---: | ---: |
+| ★脱出に成功した人間 | [キル数]×110C+300C | [キル数]×55xp+25xp |
+| 脱出に失敗した人間 | [キル数]×110C | [キル数]×55xp |
+| ゾンビに感染した人間 | *[感染数]×110C | [感染数]×6xp |
+| 初期ゾンビ | [感染数]×11C | [感染数]×6xp |
+
+★ : 営勝利ボーナスの適用対象  
+* : 中でゾンビに感染した場合、それまでのキル数に対する報酬は無効化され、その後の感染数に応じた報酬が獲得できます。ただし、この場合でもキル数の実績が無効となることはありません。
