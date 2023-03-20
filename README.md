@@ -1,11 +1,4 @@
 # Nether Zombie Escape
-## 目次
-[・アイテム一覧]([https://www.nether-server.net/dl/Z230301V1.pdf](https://github.com/Nether2046/NetherZombieEscape/blob/main/README.md#-%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E4%B8%80%E8%A6%A7)<br>
-[・報酬システム](https://www.nether-server.net/dl/Z230301V1.pdf)<br>
-[・ランクシステム](https://www.nether-server.net/dl/Z230301V1.pdf)<br>
-[・ガチャシステム](https://www.nether-server.net/dl/Z230301V1.pdf)<br>
-[・武器データシート](https://www.nether-server.net/dl/Z230301V1.pdf)<br>
-[・マップデータシート](https://www.nether-server.net/dl/Z230301V1.pdf)
 
 ## ◆ はじめに
 ここには、NZEに関する技術的な資料を掲載しています。  
