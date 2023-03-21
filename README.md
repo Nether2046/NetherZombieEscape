@@ -150,13 +150,12 @@ NZE内でお金としての役割を担うアイテム。
 各マップの仕様についてまとめた資料です
 | ID | マップ名 | 設計者 | 運用状況 |
 | --- | --- | --- | --- |
-| 1 | Erimos | NZE Dev. | 廃止 |
-| 2 | Selva | NZE Dev. | 運用中 |
-| 3 | SC-NEON | NZE Dev. | 運用中 |
-| 4 | 鉱山鉄道 | Nether2046 | 運用停止 |
-| 5 | 首里城 | Tenby | 運用中 |
-| 6 | 寝座市 | NZE Dev. | 運用中 |
-| 7 | Labo | Nether2046 | 運用中 |
-| 8 | tundra | zeyosan | 準備中 |
-| 9 | Abandoned Cities | Naya0274 | 準備中 |
-| 8 | tundra | zeyosan |
+| 1 | Erimos | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E5%BB%83%E6%AD%A2 |
+| 2 | Selva | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 3 | SC-NEON | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 4 | 鉱山鉄道 | Nether2046 | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 5 | 首里城 | Tenby | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 6 | 寝座市 | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 7 | Labo | Nether2046 | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 8 | tundra | zeyosan | https://github.com/Nether2046/NetherZombieEscape/labels/%E6%BA%96%E5%82%99%E4%B8%AD |
+| 9 | Abandoned Cities | Naya0274 | https://github.com/Nether2046/NetherZombieEscape/labels/%E6%BA%96%E5%82%99%E4%B8%AD |
