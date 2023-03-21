@@ -152,10 +152,11 @@ NZE内でお金としての役割を担うアイテム。
 | --- | --- | --- | --- |
 | 1 | Erimos | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E5%BB%83%E6%AD%A2 |
 | 2 | Selva | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
-| 3 | SC-NEON | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
+| 3 | SC-NEON | Nether2046 & zeyosan | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
 | 4 | 鉱山鉄道 | Nether2046 | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
 | 5 | 首里城 | Tenby | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
 | 6 | 寝座市 | NZE Dev. | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
 | 7 | Labo | Nether2046 | https://github.com/Nether2046/NetherZombieEscape/labels/%E9%81%8B%E7%94%A8%E4%B8%AD |
 | 8 | tundra | zeyosan | https://github.com/Nether2046/NetherZombieEscape/labels/%E6%BA%96%E5%82%99%E4%B8%AD |
-| 9 | Abandoned Cities | Naya0274 | https://github.com/Nether2046/NetherZombieEscape/labels/%E6%BA%96%E5%82%99%E4%B8%AD |
+| 9 | The Abandoned City | Naya0274 | https://github.com/Nether2046/NetherZombieEscape/labels/%E6%BA%96%E5%82%99%E4%B8%AD |
+| 10 | 古代遺跡 | Nether2046 & zeyosan | https://github.com/Nether2046/NetherZombieEscape/labels/%E6%BA%96%E5%82%99%E4%B8%AD |
