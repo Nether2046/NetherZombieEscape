@@ -11,7 +11,7 @@
 
 ## ◇ リリース
 Minecraft対応バージョン : **1.19.3**<br>
-NZEバージョン :  <br>
+NZEバージョン :  **Beta7.2**<br>
 
 ## ◆ ゲームルール
 Nether Zombie Escapeは、人間陣営とゾンビ陣営による鬼ごっこ形式のPVPゲームです。
