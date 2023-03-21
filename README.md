@@ -6,7 +6,7 @@
 
 バグ報告やフィードバックなどは[Discord](https://discord.com/invite/usCudBs55t)のNether Zombie Escapeカテゴリ「🧪レポート」チャンネルでのみ対応しております。<br>その他、NZEに関するお問い合わせはDiscordの「お問い合わせ」チャンネルまたは公式サイトのお問い合わせフォームで対応しております。
 
-### 対応状況
+### ★ 対応状況
 ユーザーから寄せられたフィードバックに対する対応状況は[こちらのシート](https://docs.google.com/spreadsheets/d/1gh0A2_vKEFRfTISTMKqQTIkM6ZYD6IE546soV9pxe8w/edit#gid=0)をご確認いただけます
 
 ## ◇ リリース
