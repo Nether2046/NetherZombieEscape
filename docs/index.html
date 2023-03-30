@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
 
+<meta name="description" content="Nether Server Network公式サイトです。">
+
 <head>
     <meta charset="utf-8">
-    <title>Nether Zombie Escape</title>
+    <title>Nether Server Network</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
     <link rel="shortcut icon" href="https://www.nether-server.net/img/favicon.ico">
     <link rel="stylesheet" href="https://www.nether-server.net/css/ress.min.css">
-    <link rel="stylesheet" href="https://www.nether-server.net/css/nze.css">
-
-    <link rel="stylesheet" href="https://www.nether-server.net/test/main.built.css">
-    <link rel="stylesheet" href="https://www.nether-server.net/test/modal.css">
-    <link rel="stylesheet" href="https://www.nether-server.net/test/overview.built.css">
-    <link rel="stylesheet" href="https://www.nether-server.net/test/overview.css">
-    <script src="https://www.nether-server.net/test/main.built.js">
-
-
+    <link rel="stylesheet" href="https://www.nether-server.net/css/style.css">
     <link rel="icon" href="https://www.nether-server.net/img/favicon.ico">
     <script src="https://www.nether-server.net/js/jquery.min.js"></script>
     <script src="https://www.nether-server.net/js/main.js"></script>
+    <script src="sc2.js"></script>
 </head>
 
-<body bgcolor="black" oncontextmenu='return false;' oncopy=''>
+<body oncontextmenu='return false;' oncopy=''>
 
+<!-- ヘッダー -->
 <header id="header">
     <div class="hamburger">
         <span></span>
         <span></span>
     </div>
     <div class="header-inner wrapper">
-        <h1 class="logo"><a href="https://www.nether-server.net/"><img src="https://www.nether-server.net/img/favicon.ico"></a></h1>
+        <h1 class="logo"><a href="#"><img src="img/favicon.ico"></a></h1>
 
         <nav id="navi">
             <ul>
@@ -49,255 +46,27 @@
     </div>
 </header>
 
-
-<style>
-    body {
-        text-decoration-color: ;
-    }
-
-    #nze {
-        background-image: url(https://www.nether-server.net/img/nze2.png);
-        background-size: cover;
-        background-position: center;
-        height: 320px;
-        margin-bottom: 45px;
-        position: relative;
-    }
-
-    #nze .headline {
-        color: #f5f5f7;
-        font-size: 56px;
-        font-weight: bold;
-        position: absolute;
-        top: 40px;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    #nze .subhead {
-        color: #f5f5f7;
-        font-size: 64px;
-        font-weight: bold;
-        position: absolute;
-        top: 125px;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    @media screen and (max-width: 767px) {
-        #nze {
-            height: 320px;
-            background-image: url(https://www.nether-server.net/img/nze2.png);
-
-        }
-        #nze .headline {
-            font-size: 32px;
-        }
-        #nze .subhead {
-            font-size: 46px;
-            top: 88px;
-        }
-    }
-    .txt {
-        margin-left: 7%;
-        margin-right: 7%;
-    }
-</style>
-
+<!-- メイン -->
 <main id="main">
-    <section id="nze">
-        <br><br><br><br><br>
-        <h2 class="headline"><font color="#8b0000">Nether Zombie Escape</font></h2>
-        <br>
-        <div align="center">
-            <p class="subhead"><font color=#ff4500>β-04</font></></div>
-    </section>
-
-
-    <div class="txt">
-        Nether Zombie Escapeは、Minecraft Java Editionでゾンビエスケープが遊べるマルチプレイサーバーです。<br>
-
-        <br><br><br><br>
-
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-        <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
-        <link rel="stylesheet" type="text/css" href="https://www.nether-server.net/nze/nze-1.css">
-        </head>
-
-        <body>
-        <div class="wrapper">
-
-            <h1>NZEからのお知らせ</h1>
-            <ul class="slider">
-                <li><a href="#"><span>2023.01.01</span>まもなくベータテストを再開します</a></li>
-                <li><a href="#"><span>2022.08.17</span>Beta-6がリリース！</a></li>
-            </ul>
-
-
-            <!--/wrapper--></div>
-
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-        <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-4-1/js/9-4-1.js"></script>
-
-        <!-- NZE -->
-
-        <br><br>
-        <br><br>
-        <h2><strong class="marker_line3">ゾンビエスケープって？</strong></h2><br>
-        参加したプレイヤーの中からランダムで人間チームとゾンビチームに分かれ、それぞれのチームで勝利を勝ち取るために戦うゲームです。<br>
-        <br>人間は、ゾンビに感染しないよう、ゾンビを銃などの武器で足止めしながらゴールを目指します。<br>
-        ゾンビは、より多くの人間を感染させるため、銃弾を避けながら人間を追いかけます。<br><br><br><br>
-
-        <article class="section section-chip section-pad-top">
-            <div class="grid grid-container">
-                <section class="grid-item large-span-12 grid-item-processor" data-component-list="ModalComponent">
-                    <header class="grid-item-header large-6">
-                        <h3 class="grid-item-eyebrow typography-eyebrow-reduced"><font color="white">人間陣営</h3>
-                    </header>
-                    <div class="grid-item-content content-centered">
-                        <div class="text-content large-12">
-                            <p class="typography-headline-super grid-headline-super">銃を使って<br>ゾンビを<br>撃ちまくれ。</span></p>
-                            <p class="typography-item-description grid-item-description">ゾンビに感染しないよう、チームの仲間と連携しながら自身でカスタマイズした武器を駆使してゾンビを足止めせよ。</span></p>
-                        </div>
-                    </div>
-                    </font>
-                    <div class="grid-item-modal-trigger-wrap">
-                        <button class="button button-compact grid-item-modal-trigger">
-                            人間陣営について
-                        </button>
-                    </div>
-
-
-                    <div class="grid-item-modal">
-                        <div class="grid-item-modal-content">
-                            <h3 class="typography-eyebrow-reduced">人間陣営</h3>
-                            <p><span class="subhead">〈勝利条件〉</span><br>
-                                ・最初の人間がセーフエリアに到達してから一定時間が経過する<br><br>
-                                ・制限時間内にゾンビに感染しない</span></p><br><br>
-                            <p><span class="subhead">装備をカスタマイズ</span> 人間陣営になった場合、ゲーム開始前にカスタマイズした装備がゲーム開始時にスロットに転送されます。
-                                <br>装備する武器を戦略的に選択して、人間陣営の勝利に貢献しましょう。</span></p><br>
-                            <p><span class="subhead">弾薬</span> 使用できる弾薬には限りがあります。弾薬がなくなると銃が使えなくなるので、撃つタイミングを慎重に見極めましょう。<br>
-                                なお、使用できる弾薬数は投票特典によって増やすことができます。</span></p>
-                        </div>
-
-                        <div class="modal-close-sticky">
-                            <button class="modal-close-circle" data-modal-close="" aria-label="閉じる">
-                                <svg class="close-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-                                    <g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
-                                        <path d="M-40.9-81.2c8.8,0,16-7.2,16-16c0-8.8-7.2-16-16-16c-8.8,0-16,7.2-16,16C-56.9-88.5-49.7-81.2-40.9-81.2z
-                                         M-40.9-83.3c-7.7,0-13.9-6.2-13.9-13.9c0-7.7,6.2-13.9,13.9-13.9c7.7,0,13.9,6.2,14,13.9C-27-89.5-33.2-83.3-40.9-83.3z
-                                         M-46.5-90.6c0.3,0,0.5-0.1,0.7-0.3l4.8-4.8l4.8,4.8c0.2,0.2,0.4,0.3,0.7,0.3c0.6,0,1-0.4,1-1c0-0.3-0.1-0.5-0.3-0.7l-4.8-4.8
-                                        l4.9-4.9c0.2-0.2,0.3-0.4,0.3-0.7c0-0.6-0.4-1-1-1c-0.3,0-0.5,0.1-0.7,0.3l-4.9,4.8l-4.8-4.8c-0.2-0.2-0.4-0.3-0.7-0.3
-                                        c-0.6,0-1,0.4-1,1c0,0.3,0.1,0.5,0.3,0.7l4.8,4.8l-4.8,4.9c-0.2,0.2-0.3,0.4-0.3,0.7C-47.5-91.1-47.1-90.6-46.5-90.6z" />
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </section>
-                <section class="grid-item large-span-12 grid-item-ml" data-component-list="ModalComponent" data-analytics-section-engagement="name:machine learning">
-                    <header class="grid-item-header small-12 medium-12 large-6">
-                        <h3 class="grid-item-eyebrow typography-eyebrow-reduced"><font color="white">ゾンビ陣営</h3>
-                    </header>
-                    <div class="grid-item-content">
-                        <p class="typography-headline-super grid-headline-super">ひたすら<br>追いかけろ。</span></p><br>
-                        <p class="typography-item-description grid-item-description">1人でも多くのゾンビを増やすため、飛び交う銃弾を協力して避けながら人間を追いかけよ。</span></p>
-                    </div></font>
-                    <div class="grid-item-modal-trigger-wrap">
-                        <button class="button button-compact grid-item-modal-trigger">
-                            ゾンビ陣営について
-                        </button>
-                    </div>
-                    <div class="grid-item-modal">
-                        <div class="grid-item-modal-content">
-                            <h3 class="typography-eyebrow-reduced">ゾンビ陣営</h3>
-                            <p><span class="subhead">〈勝利条件〉</span><br>
-                                ・最初のゾンビがセーフエリアに到達する<br><br>
-                                ・全ての人間をゾンビに感染させる</span></p><br><br>
-                            <p><span class="subhead">体力ゲージ</span> ゾンビ陣営になった場合、体力が200に設定されます。銃などで撃たれると体力が減少し、体力が0になると死亡します。<br>
-                                死亡するとクールダウンが発生し、身動きが取れなくなりますが、クールダウンが終了すると再度復活することができます。</span></p><br>
-
-                        </div>
-                        <div class="modal-close-sticky">
-                            <button class="modal-close-circle" data-modal-close="" aria-label="閉じる">
-                                <svg class="close-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-                                    <g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
-                                        <path d="M-40.9-81.2c8.8,0,16-7.2,16-16c0-8.8-7.2-16-16-16c-8.8,0-16,7.2-16,16C-56.9-88.5-49.7-81.2-40.9-81.2z
-					 M-40.9-83.3c-7.7,0-13.9-6.2-13.9-13.9c0-7.7,6.2-13.9,13.9-13.9c7.7,0,13.9,6.2,14,13.9C-27-89.5-33.2-83.3-40.9-83.3z
-					 M-46.5-90.6c0.3,0,0.5-0.1,0.7-0.3l4.8-4.8l4.8,4.8c0.2,0.2,0.4,0.3,0.7,0.3c0.6,0,1-0.4,1-1c0-0.3-0.1-0.5-0.3-0.7l-4.8-4.8
-					l4.9-4.9c0.2-0.2,0.3-0.4,0.3-0.7c0-0.6-0.4-1-1-1c-0.3,0-0.5,0.1-0.7,0.3l-4.9,4.8l-4.8-4.8c-0.2-0.2-0.4-0.3-0.7-0.3
-					c-0.6,0-1,0.4-1,1c0,0.3,0.1,0.5,0.3,0.7l4.8,4.8l-4.8,4.9c-0.2,0.2-0.3,0.4-0.3,0.7C-47.5-91.1-47.1-90.6-46.5-90.6z" />
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </article>
-        <br><br><br>
-
-
-
-        <div class="movie-wrap">
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/3E_krIFu2KI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <style>
-            .movie-wrap {
-                position: relative;
-                padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
-                height: 0;
-                overflow: hidden;
-            }
-
-            .movie-wrap iframe {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-            }
-        </style>
-
-        <br>
-
-        <br><br><br><br>
-
-        <h2><strong class="marker_line2">勝利条件</strong></h2><br>
-        <font color="#00bfff"><b>■ 人間側</b></font><br>
-        ・最初の人間がゴールに到達後、ステージに設定された一定時間が経過する<br>
-        <br><br>
-
-        <font color="green"><b>■ ゾンビ側</b></font><br>
-        ・全ての人間をゾンビに感染させる<br>
-        ・最初のゾンビがゴールに到達する<br><br><br><br>
-
-        <h2><strong class="marker_line5">参加方法</strong></h2><br>
-        <a href=https://www.nether-server.net/tutorial/connection/>こちらをご確認ください</a>
-    </div>
-
-    <br><br><br><br><br>
+	<h2 class="section-head">準備中</h2>
 
 
 
 
-    </div>
 
 
-    <!-- フッター -->
+
+
+<!-- フッター -->
     <footer id="footer">
         <div class="wrapper">
             <div class="text-area">
+                <p>
+                    </p>
             </div>
 
             <div class="footer-menu">
-                <!-- 外部リンク -->
+                <!-- 製品情報と購入 -->
                 <div class="menu">
                     <p class="title">外部リンク</p>
                     <ul>
@@ -309,7 +78,7 @@
                     </ul>
                 </div>
 
-                <!-- サーバー -->
+                <!-- サービス -->
                 <div class="menu">
                     <p class="title">サーバーについて</p>
                     <ul>
